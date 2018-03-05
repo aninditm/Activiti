@@ -50,7 +50,7 @@ public abstract class AbstractPaginateList {
   	}
   	
   	if (paginateRequest.getSize() == null) {
-  		paginateRequest.setSize(RequestUtil.getInteger(requestParams, "size", 10));
+  		paginateRequest.setSize(RequestUtil.getInteger(requestParams, "size", 20));
   	}
   	
   	if (paginateRequest.getOrder() == null) {
